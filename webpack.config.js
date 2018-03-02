@@ -11,19 +11,6 @@ module.exports = {
     filename: "bundle.js",
     publicPath: "/"
   },
-  devServer: {
-    proxy: {
-      '**': {
-        target: 'http://localhost:3000/',
-        secure: false,
-        changeOrigin: true
-      }
-    },
-    contentBase: path.resolve(__dirname, 'dist'),
-    inline: true,
-    // https: false,
-    port: "3000"
-  },
   module: {
     loaders: [
       {
