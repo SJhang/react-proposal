@@ -5,7 +5,7 @@ const MyStore = (props) => {
   return (
     <div id={'myStore'}>
       <h1>My Store</h1>
-      <Link to={'/storeFinder'}>change your store</Link>
+      <Link to={'/profile/storeFinder'}>change your store</Link>
       <div id={'myStoreInfo'}>
         <span>{storeInfo.name}</span>
         <span>{storeInfo.line1}</span>
